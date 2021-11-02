@@ -1,10 +1,10 @@
-/* RESET */
-    /* * {
+* {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-    }*/
-body {
+    }
+
+    body {
     text-align: center;
 }
 
@@ -15,10 +15,7 @@ body {
 }
 
 .header {
-    /*height: 70%;*/
-    font-size: 25em;
-    /*text-align: center;*/
-    margin: 0px;
+    
 }
 
 .flex {
@@ -30,6 +27,9 @@ body {
 .box {
     display:flex;
     flex-direction: column;
+    border: thin solid grey;
+    border-radius: 5px;
+    padding: 50px;
 }
 
 .subCenter {

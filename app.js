@@ -1,7 +1,7 @@
 const which = document.getElementById("which");
 const key = document.getElementById("key");
 const whichSmall = document.getElementById("which-small");
-const keyCode = document.getElementsByTagName("keyCode");
+const code = document.getElementById("code");
 
 document.addEventListener("keypress", (e) => {
     console.log(e);
@@ -13,6 +13,5 @@ document.addEventListener("keypress", (e) => {
     which.innerHTML = `<p>${e.charCode}</p>`;
     key.innerHTML = `<p>${e.key}</p>`;
     whichSmall.innerHTML = `<p>${e.charCode}</p>`;
-    keyCode.innerHTML = `<p>${e.keyCode}</p>`;
-    
+    code.innerHTML = `<p>${e.code}</p>`;
 })
