@@ -2,15 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Key Code Challenge</title>
 </head>
 <body>
-    <h1>Key Code Challenge</h1>
-    <div id="which"></div>
-    <div id="key"></div>
-    <div id="which-small"></div>>
-    <div id="code"></div>
+    <div class="wrapper">
+        <div class="header" id="which">
+        </div>
+        <div class="flex">
+            <div class="box">
+                <div>
+                    <p>event.key</p>
+                </div>
+                <div class="subLeft" id="key">event.key
+                </div>
+            </div>
+            <div class="box">
+                <div></div>
+                    <p>event.which</p>
+                <div class="subCenter"  id="which-small">event.which
+                </div>
+            </div>
+            <div class="box">
+                <div>
+                    <p>event.code</p>
+                </div>
+                <div class="subRight"  id="keyCode">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
